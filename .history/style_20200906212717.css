@@ -1,9 +1,10 @@
-/* PART */
 .head{
     min-height: 50px;
     text-align: center;
+    margin: 0;
 }
 .content{
+    /* background-color: #dddddd; */
     min-height: 500px;
     overflow: auto;
     margin: 20px;
@@ -19,8 +20,9 @@
     margin: 0 auto;
     width: 100%;
 }
-
-/* HEADER */
+/* .logo img{
+    width: 500px;
+} */
 .logo p{
     text-align: center;
     color: maroon;
@@ -74,7 +76,7 @@ ul.submenu li a{
     color: white;
     background-color: #aaaaaa;
     background-image: url(G:/CodePolitan/wallpaper.jpg);
-    background-size: contain;
+    background-size: cover;
     position: relative;
 }
 .over{

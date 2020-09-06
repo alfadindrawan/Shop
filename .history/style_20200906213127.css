@@ -4,6 +4,7 @@
     text-align: center;
 }
 .content{
+    /* background-color: #dddddd; */
     min-height: 500px;
     overflow: auto;
     margin: 20px;
@@ -27,7 +28,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 5em;
     font-variant: small-caps;
-    margin: 2px;
+    /* margin: 2px; */
 }
 .menu ul{
     padding: 0;

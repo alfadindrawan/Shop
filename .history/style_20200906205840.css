@@ -1,15 +1,14 @@
-/* PART */
 .head{
     min-height: 50px;
     text-align: center;
 }
 .content{
+    /* background-color: #dddddd; */
     min-height: 500px;
     overflow: auto;
-    margin: 20px;
 }
 .footer{
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
     min-height: 50px;
    text-align: center;
    clear: both;
@@ -17,14 +16,15 @@
 }
 .container{
     margin: 0 auto;
-    width: 100%;
+    width: 800px;
 }
-
-/* HEADER */
+/* .logo img{
+    width: 500px;
+} */
 .logo p{
     text-align: center;
     color: maroon;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 5em;
     font-variant: small-caps;
     margin: 2px;
@@ -41,6 +41,20 @@
     padding: 5px 10px;
     text-decoration: none;
 }
+.thumbnail{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    width: 226px;
+    margin: 10px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.thumbnail img{
+    width: 100%;
+    height: 150px;
+}
 .content h2{
     text-align: center;
 }
@@ -50,13 +64,13 @@ ul.submenu{
     text-align: left;
     position: absolute;
     top: 20px;
-    left: -8px;
+    left: 0;
     display: none;
     z-index: 99999;
 }
 ul.submenu li{
     display: block;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 ul.submenu li a{
     display: block;
@@ -67,7 +81,7 @@ ul.submenu li a{
 }
 .jump{
     width: 100%;
-    height: 490px;
+    height: 100%;
     padding: 80px 40px;
     box-sizing: border-box;
     text-align: center;
@@ -86,30 +100,14 @@ ul.submenu li a{
     top: 0;
     left: 0;
 }
-.jump h1,p{
+.jump h2,p{
     position: relative;
 }
-
-/* CONTENT */
 .thumbnail .info{
     display: none;
 }
 .thumbnail:hover .info{
     display: block;
-}
-.thumbnail img{
-    width: 100%;
-    height: 150px;
-}
-.thumbnail{
-    text-align: center;
-    padding: 10px;
-    background-color: white;
-    width: 225px;
-    margin: 10px;
-    float: left;
-    position: relative;
-    overflow: hidden;
 }
 .info p{
     display: block;
@@ -121,11 +119,11 @@ ul.submenu li a{
     top: 0px;
     height: 100%;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 5px;
     color: white;
     text-align: center;
     font-size: 20px;
-    left: 0;
+    display: block;
 }
 .info a{
     text-decoration: none;
@@ -140,11 +138,3 @@ ul.submenu li a{
     background-color: white;
     color: black;
 }
-
-
-
-
-
-
-
-/* END */

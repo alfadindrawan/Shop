@@ -4,6 +4,7 @@
     text-align: center;
 }
 .content{
+    /* background-color: #dddddd; */
     min-height: 500px;
     overflow: auto;
     margin: 20px;
