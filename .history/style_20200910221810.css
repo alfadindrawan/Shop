@@ -91,7 +91,7 @@ ul.submenu li a{
     font-size: 2.3em;
 }
 .jump p{
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 @media screen and (max-width:600px){
     .logo p{
@@ -136,7 +136,7 @@ ul.submenu li a{
     padding: 10px;
     background-color: white;
     width: 225px;
-    margin: 30px;
+    margin: 10px;
     float: left;
     position: relative;
     overflow: hidden;

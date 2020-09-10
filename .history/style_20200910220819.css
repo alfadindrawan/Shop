@@ -88,12 +88,12 @@ ul.submenu li a{
     position: relative;
 }
 .jump h1{
-    font-size: 2.3em;
+    font-size: 1.5em;
 }
 .jump p{
-    font-size: 1.2em;
+    font-size: 1em;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:500px){
     .logo p{
         font-size: 25px;
     }
@@ -103,6 +103,9 @@ ul.submenu li a{
     .jump p{
         font-size: 10px;
     }
+    .jump{
+        height: 200px;
+    }
     .menu ul li a{
         font-size: 10px;
     }
@@ -111,12 +114,7 @@ ul.submenu li a{
         margin: 2%;
     }
     .content h2{
-        font-size: 15px;
-    }
-}
-@media screen and (max-width:800px){
-    .jump{
-        height: 300px;
+        font-size: 13px;
     }
 }
 
@@ -136,7 +134,7 @@ ul.submenu li a{
     padding: 10px;
     background-color: white;
     width: 225px;
-    margin: 30px;
+    margin: 10px;
     float: left;
     position: relative;
     overflow: hidden;

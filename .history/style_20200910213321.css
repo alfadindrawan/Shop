@@ -34,11 +34,9 @@
 .menu ul li a{
     padding: 5px 10px;
     text-decoration: none;
-    font-size: 1em;
 }
 .content h2{
     text-align: center;
-    font-size: 1.5em;
 }
 ul.submenu{
     background-color: #eeeeee;
@@ -49,12 +47,10 @@ ul.submenu{
     left: -8px;
     display: none;
     z-index: 99999;
-    
 }
 ul.submenu li{
     display: block;
     padding-left: 5px;
-    
 }
 ul.submenu li a{
     display: block;
@@ -88,35 +84,20 @@ ul.submenu li a{
     position: relative;
 }
 .jump h1{
-    font-size: 2.3em;
+    font-size: 1.5em;
 }
 .jump p{
-    font-size: 1.2em;
+    font-size: 1em;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:500px){
     .logo p{
-        font-size: 25px;
+        font-size: 20px;
     }
-    .jump h1{
-        font-size: 13px;
-    }
-    .jump p{
+    h1.over{
         font-size: 10px;
     }
-    .menu ul li a{
-        font-size: 10px;
-    }
-    .thumbnail{
-        width: 96%;
-        margin: 2%;
-    }
-    .content h2{
-        font-size: 15px;
-    }
-}
-@media screen and (max-width:800px){
-    .jump{
-        height: 300px;
+    p.over{
+        font-size: 20px;
     }
 }
 
@@ -136,7 +117,7 @@ ul.submenu li a{
     padding: 10px;
     background-color: white;
     width: 225px;
-    margin: 30px;
+    margin: 10px;
     float: left;
     position: relative;
     overflow: hidden;
@@ -178,15 +159,6 @@ ul.submenu li a{
     text-align: center;
     clear: both;
     padding: 20px;
-    font-size: 1em;
-}
-@media screen and (max-width:700px){
-    .footer{
-        font-size: 10px;
-        min-height: 10px;
-        padding: 5px;
-    }
-    
 }
 
 
